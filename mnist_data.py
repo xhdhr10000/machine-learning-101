@@ -31,10 +31,10 @@ def readDataset(filename):
 	return (data, count)
 
 def main():
-	readDataset("dataset/mnist/train-images.idx3-ubyte")
-	readDataset("dataset/mnist/train-labels.idx1-ubyte")
-	readDataset("dataset/mnist/t10k-images.idx3-ubyte")
-	readDataset("dataset/mnist/t10k-labels.idx1-ubyte")
+	readDataset("dataset/mnist/train-images-idx3-ubyte")
+	readDataset("dataset/mnist/train-labels-idx1-ubyte")
+	readDataset("dataset/mnist/t10k-images-idx3-ubyte")
+	readDataset("dataset/mnist/t10k-labels-idx1-ubyte")
 	pass
 
 if __name__ == "__main__":
